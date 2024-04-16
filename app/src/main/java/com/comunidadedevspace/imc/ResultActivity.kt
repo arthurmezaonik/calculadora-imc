@@ -20,11 +20,11 @@ class ResultActivity : AppCompatActivity() {
 
         val classificacao : String = if (result <= 18.5f){
             "MAGREZA"
-        } else if (result > 18.5f && result <= 24.9f){
+        } else if (result > 18.5f && result <= 24.99f){
             "NORMAL"
-        } else if (result > 25f && result <= 29.9f) {
+        } else if (result > 25f && result <= 29.99f) {
             "SOBREPESO"
-        } else if (result > 30f && result <= 39.9f){
+        } else if (result > 30f && result <= 39.99f){
             "OBESIDADE"
         } else {
             "OBESIDADE GRAVE"
