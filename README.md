@@ -1,19 +1,41 @@
 # Calculadora IMC
-Desc
+Calculadora de IMC foi o primeiro aplicativo que desenvolvi relacionado a desenvolvimento Android. Esse aplicativo faz parte do desafio 10D na comunidade DevSpace e consegui sair do ZERO. 
+
+
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-Screenshots
+<img src="https://github.com/arthurmezaonik/calculadora-imc/assets/81049813/4171b198-b172-4029-b930-155817b2b475" width="260">&emsp;<img src="https://github.com/arthurmezaonik/calculadora-imc/assets/81049813/18e8de04-9d43-4bfd-859a-852c7c3171c7" width="260">&emsp;<img src="https://github.com/arthurmezaonik/calculadora-imc/assets/81049813/4981319f-97a5-4791-8575-4c5420fbec44" width="260">
+
 
 ## Tecnologias
-Techs
+* Kotlin
+* Activity para host de telas
+* ViewGroup
+    * LinearLayout
+    * ConstraintLayout
+- Components de UI
+    - TextView
+    - EditText
+    - Button
+    - ImageView
+- Snackbar para display de mensagens
+- Intent Explicita para abrir a segunda Activity
+- FindViewById para recuperar components de UI
+- String resource para concatenação de textos
 
+
+### TODO
+- Melhorar UI/UX do app
+
+## Author
+Arthur Martins (follow me on [Linkedin](https://www.linkedin.com/in/arthur-martins-20165b16b/))
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2024 Arthur Henrique E. M. Martins
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
